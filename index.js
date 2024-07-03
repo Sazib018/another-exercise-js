@@ -18,7 +18,25 @@ const avg = make_avg (15, 20, 25);
 console.log(avg);
 
 //task-3
+var arr = [1, 2, 3, 4, 5];
+var average = arr.reduce((a, b) => a + b, 0) / arr.length;
 
+
+console.log(average);
+
+//task-4
+
+function odd_even(number) {
+    if (number % 2 === 0) {
+        return 'even';   
+    }
+    else {
+        return 'odd';
+    }
+}
+
+var result = odd_even(29);
+console.log(`the number is ${result}.`);
   
 //task-5
 
