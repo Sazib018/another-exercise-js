@@ -8,17 +8,14 @@ bar('foo')
 foo()
 
 //task-2
-
-function even(x) {
-    return x % 2 ==0;
+function make_avg(num1, num2, num3) {
+  var total = num1 + num2 + num3;
+  var average = total /3;
+  return average;  
 }
 
-function obb(x) {
-    return x % 2 ==1;
-}
-console.log();
-
-
+const avg = make_avg (15, 20, 25);
+console.log(avg);
 //task-4
 
 var color ="green"
