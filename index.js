@@ -16,6 +16,19 @@ function make_avg(num1, num2, num3) {
 
 const avg = make_avg (15, 20, 25);
 console.log(avg);
+
+//task-3
+
+function make_avg(num1, num2, num3, num4, num5, num6) {
+    var totalNumber = num1 + num2 + num3 + num4 + num5+ num6;
+    var average = totalNumber /6;
+    return average;  
+  }
+  
+  const number = make_avg (4, 9, 16, 25, 36, 49);
+  console.log(number);
+
+  
 //task-4
 
 var color ="green"
